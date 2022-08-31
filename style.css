@@ -1,0 +1,114 @@
+body{
+    font-family: sans-serif;
+    overflow: hidden;
+    user-select: none;
+    display: flex;
+}
+.column1{
+    margin-left: 200px; 
+}
+.bangladesh-flag{
+    width: 300px;
+    height: 150px;
+    background-color: green;
+    text-align: center;
+    padding: 20px;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+.england-flag{
+    width: 340px;
+    height: 190px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 1px 1px 8px black;
+    text-align: center;
+}
+.box2{
+    width: 340px;
+    height: 30px;
+    background-color: red;
+    margin-top: 60px;
+}
+.box3{
+    width: 30px;
+    height: 190px;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    margin-top: -90px; 
+    margin-left: 160px; 
+}
+
+
+.germany-flag{
+    width: 340px;
+    height: 180px;
+}
+.box4{
+    width: 340px;
+    height:60px;
+    background-color: black;
+}
+.box5{
+    width: 340px;
+    height: 60px;
+    background-color: red;
+}
+.box6{
+    width: 340px;
+    height: 60px;
+    background-color: yellow;
+}
+
+
+.column2{
+    margin-left: 200px;
+}
+.usa-flag{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(90deg,#041e42 20%, #9b1c2c 100%);
+    position: relative;
+}
+.stripe{
+    background-color: #9b1c2c;
+    width: 100%;
+    height: calc(200px / 13);
+}
+.stripe--white{
+    background-color: white;
+}
+.usa-stars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: calc((200px / 13) * 7);
+    background-color: #041e42;
+    z-index: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.star-row {
+    display: flex;
+    justify-content: space-between;
+}
+.star-row--five{
+    padding: 0px 15px;
+}
+.star{
+    font-size: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
